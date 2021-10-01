@@ -93,10 +93,12 @@ nav a{
 }
 #projects p{
     width: 20%;
-    margin-right: 1%;
+    margin: 1%;
     text-align: center;
-    margin-top: 10%;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .portfolio{
     display:flex;
