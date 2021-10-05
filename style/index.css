@@ -121,3 +121,71 @@ nav a{
     border-radius: 20%;
     font-size: 1.7rem;
 }
+/* Media Queries */
+/* 
+When we are building Desktop first and scaling down we use Max-Width
+When we are building mobile first and scaling up we use Min-Width 
+*/
+/* Phone CSS Style Sheet */
+
+@media(max-width:550px) {
+body{
+    background-color: #fff;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio img{
+    width: 45%;
+    margin: 2%;
+    margin-top: 5%;
+}
+#projects p{
+    width: 90%;
+} 
+}
+
+/*Tablet CSS Style Sheet */
+
+@media(max-width: 1000px) {
+    body{
+        background-color: #fff;
+        max-width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #projects{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio img{
+        width: 45%;
+        margin: 2%;
+        margin-top: 5%;
+    }
+    #projects p{
+        width: 90%;
+    } 
+}
